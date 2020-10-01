@@ -1,0 +1,77 @@
+header {
+  height: 80vh;
+  font-family: lato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+h1 {
+  font-size: clamp(3rem, 5vw, 8rem);
+}
+
+
+.fancy {
+  font-family: 'Cormorant Garamond';
+  font-weight: 600;
+  font-style: italic;
+}
+
+.realEstate {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.thin {
+  font-weight: 300;
+}
+
+
+.scrollButton {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+}
+
+button {
+  width: 50%;
+  background-color: #0C0C0C; 
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.5s ease-in-out all;
+}
+
+button:hover, button:focus {
+    color: #0C0C0C;
+    background-color: whitesmoke;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonsContainer button {
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        align-items: center;
+    }
+}

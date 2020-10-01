@@ -1,0 +1,37 @@
+.listingsContainer {
+    padding: 60px 0;
+}
+
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    width: calc(50% - 40px);
+    margin: 20px;
+}
+img {
+    width: calc(50% - 40px);
+    margin: 20px;
+}
+p {
+    font-family: lato;
+    font-size:clamp(1rem, 2vw, 2rem);
+    font-weight: 300;
+    padding: 5px 0;
+}
+p.address {
+    font-family: 'Cormorant Garamond';
+    font-size: clamp(2rem, 3vw, 4rem);
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    ul {
+        display: block;
+    }
+    img, li {
+        width: calc(100% - 40px);
+
+    }
+}
